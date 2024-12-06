@@ -1,3 +1,5 @@
+package monteCarloProblem0;
+
 public class monteCarloProblem0_Old_ {
     public static int trials = 10000;
     public static void main(String[] args) {
@@ -24,4 +26,3 @@ public class monteCarloProblem0_Old_ {
     }
 
 }
-

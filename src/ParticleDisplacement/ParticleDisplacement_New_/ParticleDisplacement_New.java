@@ -40,9 +40,8 @@ public class ParticleDisplacement_New {
     }
 
     public static Point_New takeSteps(int step, Point_New point){
-        for (int j = 0; j < step; j++) {
+        for (int j = 0; j < step; j++)
             point = simulateRandomMovement(point);
-        }
         return point;
     }
 
